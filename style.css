@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  background-color: #ec7476;
+}
+.container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  padding: 160px 10rem;
+}
+.form-container {
+  display: grid;
+}
+.page-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-text > p {
+  font-size: 20px;
+  color: aliceblue;
+}
+h1 {
+  color: gold;
+}
+.cta {
+  background-color: blue;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.round-corners {
+  border-radius: 1rem;
+}
+.form {
+  background-color: aliceblue;
+  padding: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > input {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+form > input:focus {
+  border: 1px solid black;
+}
+form > input:last-child {
+  background-color: hsl(154, 59%, 39%);
+  text-align: center;
+  box-shadow: 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+.terms {
+  color: rgb(198, 198, 198);
+  text-align: center;
+}
+.terms > strong {
+  color: rgb(159, 1, 1);
+}
